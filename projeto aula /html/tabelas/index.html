@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina pricipal</title>
+</head>
+
+<body>
+    <p>abaixo temso uma estrutura de tabela onde criaremos uma tabela em forma de excel, para isso, utilizaremos a tag
+        table </p>
+    <table border="2" width="100%">
+        <!-- também podemos utilizar outros atributos como o tamanho de largura da tabela -->
+        <tr> <!-- esse tr é uma linha da tabela -->
+            <th>Código</th> <!-- esse "th" é um table header justamente para diferenciar o título do conteúdo -->
+            <th>Produto</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Notebook</td>
+            <td>2500,00</td>
+        </tr>
+
+        <tr>
+            <td>Descontos</td>
+            <td colspan="2">cupom1 -r$10</td>
+        <tr>
+            <td rowspan="2">cupom 2 - R$10</td>
+            <!-- o colspan é uma extensão de coluna e o rowspan é uma extensão de linha -->
+        </tr>
+        </tr>
+
+    </table>
+</body>
+
+</html>
