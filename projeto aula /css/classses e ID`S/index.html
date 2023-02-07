@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes e ID`S</title>
+    <style type="text/css">
+        /* no CSS temos duas classificaçoes, classes e id, na classe podemos chamar mais de uma vez o mesmo valor do CSS, agora no ID podemos chamar uma única vez*/
+        .classeNova {
+            /* a classe ela é definida com essa sintaxe, ".{o nome da classe}"*/
+            background-color: #000;
+        }
+
+        /* agora no ID podemos utilizar apenas uma vez como no exemplo abaixo*/
+        /* é utilizado sempre a hashtag quando é ID */
+        #nomeoutro {
+            color: yellow;
+        }
+
+        #nomeoutrodois {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="classeNova" id="nomeoutro">
+        <!-- se você for querer utilizar uma classe do CSS, é necessário usar o parametro"class" na tag do HTML-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, labore explicabo. Nesciunt quisquam debitis
+        ipsa inventore voluptates culpa ad. Porro quas itaque placeat deleniti deserunt nobis incidunt doloribus
+        explicabo architecto.
+    </p>
+
+    <p class="classeNova" id="nomeoutrodois">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum dicta officiis consequuntur itaque,
+        sapiente nihil, earum doloribus id labore tenetur! Rerum iusto quidem ea suscipit excepturi placeat ipsum omnis.
+    </p>
+</body>
+
+</html>
