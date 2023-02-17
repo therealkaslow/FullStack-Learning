@@ -1,0 +1,36 @@
+.texto-centralizado {
+    text-align: center;
+}
+
+.texto {
+    color: rgb(223, 165, 95);
+}
+
+.img-campanhas{
+    border: #4b566a solid;
+}
+
+#menu {
+    padding: 18px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    font: 16px Arial, Helvetica, sans-serif;
+    background: #d2d2c1 url('imagens/fundo.png');
+}
+
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px;
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
