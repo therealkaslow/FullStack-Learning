@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos inline-block</title>
+    <style>
+        .inline{
+            border: solid red 5px;
+            background-color: aqua;
+            /* o display block serve para ocupar a linha inteira jogando os outros elementos para abaixo da linha, e o display inline-block serve para conseguir manter todos os elementos na mesma linha e o restante jogar para a linha de baixo (só quebra para a outra linha quando não cabe mais na mesma linha) */
+            display: flex;
+        }
+        .centralize{
+            text-align: center;
+            margin: 19.92, 19.92;
+        }
+    </style>
+</head>
+<body>
+    <div class="inline">
+        <h2>Inline Block</h2>
+        <p class="centralize"> Lorem ipsum, dolor sit amet c</p>
+            <div class="inline">
+        <h2>noticias</h2>
+        <a href="">clique aqui</a>
+    </div>
+    </div>
+
+</body>
+</html>

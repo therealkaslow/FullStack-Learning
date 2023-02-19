@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos estȧticos, relative, absolute e fixed</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        #container{
+            background-color: #e3dede;
+            width: 800px;
+            /* uma boa dica para conseguir centralizar um container é definir o tamanho da margin top e bottom e na direita e esquer colocar auto */
+            margin: 80px auto;
+        }
+        /* o position relative consegue deslocar um elemento baseado na posição inicial que ele teria, dentro do fluxo normal de um documento como n oexemplo abaixo:*/
+        .relative{
+            position: relative;
+            /* depois de definir que o elemento possui uma posição relativa, é necessário descolar para qual posição ele iria da posicao padrão */
+            left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p class="relative">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quia atque, a, accusamus cupiditate odio repellat quam ducimus fugiat repellendus totam eius eaque ut. Quos, voluptatum! Facere fugiat atque ab.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur natus, quaerat sint sit soluta dignissimos expedita, quos earum excepturi ipsa quisquam assumenda. Officia similique necessitatibus id magnam consequuntur consectetur vitae!</p>
+    </div>
+</body>
+</html>
