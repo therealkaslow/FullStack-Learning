@@ -1,0 +1,27 @@
+.floating1{
+    margin: 5px;
+    border: red solid 10px;
+    width: 50%;
+    padding-left:5px;
+    float: left;
+}
+.floating2{
+    margin: 5px;
+    border: red solid 10px;
+    width: 50%;
+    padding-left:5px;
+    /* utilizaremos o float abaixo */
+    float: right;
+}
+.floating3{
+    margin: 5px;
+    border: red solid 10px;
+    width: 250px;
+    padding-left:5px;
+    /* utilizaremos o float abaixo */
+    float: left;
+}
+#clear{
+    background: aqua;
+    clear: left;
+}
