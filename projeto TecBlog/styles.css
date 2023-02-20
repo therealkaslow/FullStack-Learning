@@ -11,13 +11,13 @@ a {
     padding: 8px 12px;
     text-decoration: none;
     color: antiquewhite;
-    font-size: 2em;
+    font-size: 1.5em;
     border-radius: 20px;
     border-bottom: aliceblue;
 }
 h1{
     color: #4e4e4e;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 a:hover {
     color: #F9C606;
@@ -29,19 +29,16 @@ a:active {
     color: antiquewhite;
 }
 
-.container {
-    background-color: #F9C606;
+.post-title{
+    color: #F9C606;
 }
-
-.flex {
-    width: auto;
-    display: flex;
+.post{
+    
 }
 .white-title {
     color: white;
 }
 #area-logo {
-    font-size: 40px;
     margin: 10px;
 }
 
@@ -57,4 +54,24 @@ a:active {
     padding: 20px;
     margin-right: 20px;
     margin-left: 20px;
+}
+#main-area{
+    /* a largura padrão de mercado é 920px   */
+    width: 920px;
+    margin: 0 auto;
+}
+#posts-area{
+    width: 660px;
+    float: left;
+    margin: 0 20px;
+}
+#label-area{
+    width: 240px;
+    float: right;
+}
+#footer{
+    background-color: green;
+    text-align: center;
+    padding: 15px;
+    clear: both;
 }
