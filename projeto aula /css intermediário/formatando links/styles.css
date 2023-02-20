@@ -1,0 +1,22 @@
+a{
+    /* deixaremos o link com uma cara mais bonita do default */
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: burlywood;
+}
+a:link {
+    /* links não visitados */
+    color: #ffffff;
+}
+a:visited {
+    /* links visitados */
+    color: #c9b041;
+}
+a:hover{
+    /* links quando passa o mouse por cima */
+    background-color: blueviolet;
+}
+a:active{
+    color: rgb(255, 0, 0);
+}
