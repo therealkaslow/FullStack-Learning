@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+}
+h2{
+    margin: auto;
+}
+.container{
+    width: 500px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.absolute {
+    /* um elemento que possui a posicao absoluta ele sai do fluxo normal do documento e não afeta a posição dos outros elementos da página fazendo com que a caixa que tivesse a posição a bsoluta */
+    position: absolute;
+    width: 250px;
+    top: 35px;
+}
+
+.relative {
+
+    position: relative;
+    left: 25px;
+    width: 250px;
+
+}
+
+.fixed {
+    /* com a posição fixed, ele permite deixar os elementos da página de forma fixa, como se fosse a navegação com o chat, vc rola o scroll e o chat continua fixado na página */
+    position: fixed;
+    left: 25px;
+    width: 250px;
+
+}
+.container{
+    display: inline-block;
+} 

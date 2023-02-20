@@ -1,0 +1,19 @@
+.conteudo1{
+    border: 1px solid red;
+    background: orange;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    /* o Z-INDEX serve para alterar a ordem dos elementos sobrepondo o valor maior que for atribuido a frente do outro valor menor atribuido */
+    z-index: 1;
+}
+.conteudo2{
+    border: 1px solid red;
+    background: orange;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 0;
+}
