@@ -1,0 +1,60 @@
+* {
+    /* o seletor asterisco, serve para  zerar todas as formatações padrão do elemento*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Shantell Sans', cursive;}
+a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 2em;
+    border-radius: 20px;
+    border-bottom: aliceblue;
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2em;
+}
+a:hover {
+    color: #F9C606;
+    background-color: antiquewhite;
+}
+
+a:active {
+    background-color: #F9C606;
+    color: antiquewhite;
+}
+
+.container {
+    background-color: #F9C606;
+}
+
+.flex {
+    width: auto;
+    display: flex;
+}
+.white-title {
+    color: white;
+}
+#area-logo {
+    font-size: 40px;
+    margin: 10px;
+}
+
+#header-area {
+    background-color: #F9C606;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+#area-menu {
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
