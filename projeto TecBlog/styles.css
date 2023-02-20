@@ -6,8 +6,11 @@
 
 body {
     font-size: 1em;
-    font-family: 'Shantell Sans', cursive;}
+    font-family: 'Shantell Sans', cursive;
+}
+
 a {
+
     padding: 8px 12px;
     text-decoration: none;
     color: antiquewhite;
@@ -15,29 +18,36 @@ a {
     border-radius: 20px;
     border-bottom: aliceblue;
 }
-h1{
-    color: #4e4e4e;
+h1 {
+    color: #272626;
     font-size: 2.5em;
 }
+
 a:hover {
     color: #F9C606;
     background-color: antiquewhite;
 }
 
 a:active {
-    background-color: #F9C606;
+    background-color: #f9c606;
     color: antiquewhite;
 }
-
-.post-title{
+a .button{
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #f9c606;
+}
+.img-resize{
+    width: 230px;
+}
+.post-title {
     color: #F9C606;
 }
-.post{
-    
-}
+
 .white-title {
     color: white;
 }
+
 #area-logo {
     margin: 10px;
 }
@@ -55,21 +65,27 @@ a:active {
     margin-right: 20px;
     margin-left: 20px;
 }
-#main-area{
+
+#main-area {
     /* a largura padrão de mercado é 920px   */
     width: 920px;
     margin: 0 auto;
 }
-#posts-area{
+
+#posts-area {
     width: 660px;
     float: left;
-    margin: 0 20px;
+    margin-right: 10px;
 }
-#label-area{
+
+#label-area {
+    display: inline-block;
+    margin-left: 10px;
     width: 240px;
     float: right;
 }
-#footer{
+
+#footer {
     background-color: green;
     text-align: center;
     padding: 15px;
