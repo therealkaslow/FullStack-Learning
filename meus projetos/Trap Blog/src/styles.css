@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    margin: 25px;
+}
+.container{
+    align-items: center;
+    width: 920px;
+    background-color: #C7D3DD;
+    border: solid 1px red;
+}
