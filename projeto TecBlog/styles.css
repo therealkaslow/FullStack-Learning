@@ -9,7 +9,20 @@ body {
     font-family: 'Shantell Sans', cursive;
 }
 
-a {
+#posts-area>a {
+
+    text-decoration: none;
+    color: #F9C606;
+}
+
+p > a {
+
+    text-decoration: none;
+    color: #F9C606;
+}
+
+
+#area-menu>a {
 
     padding: 8px 12px;
     text-decoration: none;
@@ -18,6 +31,7 @@ a {
     border-radius: 20px;
     border-bottom: aliceblue;
 }
+
 h1 {
     color: #272626;
     font-size: 2.5em;
@@ -25,21 +39,24 @@ h1 {
 
 a:hover {
     color: #F9C606;
-    background-color: antiquewhite;
+    background-color: rgb(199, 177, 148);
 }
 
 a:active {
     background-color: #f9c606;
     color: antiquewhite;
 }
-a .button{
+
+a .button {
     padding: 8px 12px;
     text-decoration: none;
     background-color: #f9c606;
 }
-.img-resize{
+
+.img-resize {
     width: 230px;
 }
+
 .post-title {
     color: #F9C606;
 }
@@ -86,7 +103,8 @@ a .button{
 }
 
 #footer {
-    background-color: green;
+    background-color: #F9C606;
+    ;
     text-align: center;
     padding: 15px;
     clear: both;
